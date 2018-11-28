@@ -1,0 +1,56 @@
+body{
+    max-width: 1365px;
+    padding: 0;
+    margin: 0 auto;
+}
+.header{
+    min-height: 670px;
+}
+.header__block{
+    min-height: 596px;
+}
+.header__block__text{
+    margin: auto 0;
+}
+.container{
+    border: 1px solid black;
+}
+.about{
+    min-height: 420px;
+}
+.about__text{
+    padding: 30px 0;
+}
+.skills{
+    min-height: 570px;
+}
+.skills__block{
+    min-height: 570px;
+}
+.statistics{
+    min-height: 250px;
+}
+.work{
+    min-height: 600px;
+}
+.load{
+    min-height: 106px;
+}
+.video{
+    min-height: 930px;
+}
+.categories{
+    min-height: 536px;
+}
+.slider{
+    min-height: 500px;
+}
+.logos{
+    min-height: 200px;
+}
+.feedback{
+    min-height: 750px;
+}
+.footer{
+    min-height: 280px;
+}
