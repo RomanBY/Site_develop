@@ -1,0 +1,44 @@
+.skills__block{
+    min-height: 570px;
+}
+.skills__block-h{
+    color: #171717;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 84px;
+    letter-spacing: 0.3px;
+}
+.skills__block-p{
+    color: #000000;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+}
+.line{
+    width: 165%;
+    height: 3px;
+    background-color: #ebebeb;
+    overflow: hidden;
+}
+
+.line__progress-1,
+.line__progress-2,
+.line__progress-3{
+    width: 0%;
+    height: 100%;
+    background: linear-gradient(to bottom, #53cbf1 0%,#05abe0 43%,#05abe0 50%,#05abe0 50%,#05abe0 58%,#53cbf1 99%);
+    transition: width 3s 0s ease-in;
+}
+.line__progress-w1{
+    width: 75%;
+}
+.line__progress-w2{
+    width: 90%;
+}
+.line__progress-w3{
+    width: 65%;
+}
