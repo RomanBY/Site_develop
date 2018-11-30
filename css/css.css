@@ -3,6 +3,7 @@
 @import "css_block/about_text.css";
 @import "css_block/skills_block.css";
 @import "css_block/statistics_block.css";
+@import "css_block/work_block.css";
 body{
     max-width: 1365px;
     padding: 0;

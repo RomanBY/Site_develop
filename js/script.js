@@ -57,3 +57,11 @@ $(window).scroll(function () {
 
 })
 
+/*load more*/
+
+$(document).ready(function () {
+    $('#load_btn').click(function () {
+        $('.work__container').toggleClass('work__container-height');
+        $('.work__container__more').addClass('work__container__more-none');
+    })
+})
