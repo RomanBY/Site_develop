@@ -1,12 +1,12 @@
 .work__container{
     overflow: hidden;
-    height: 569px;
-    transition:height 300ms ease-in;
+    max-height: 0px;
+    transition:300ms ease-in;
 }
-.work__container-height{
-    height: 855px;
-    transition:height 300ms ease-in;
-}
+/*.work__container-height{
+    max-height: max-content;
+    transition: 300ms ease-in;
+}*/
 .work__container__img{
     width: 100%;
 }
@@ -18,7 +18,7 @@
     top: 0;
     cursor: pointer;
     transform: rotateX(90deg);
-    transition: transform 400ms ease-in-out ;
+    transition: transform 300ms ease-in-out ;
 }
 .work__container__block:hover .work__container__block-hover{
     transform: rotateX(0deg);
@@ -29,7 +29,7 @@
     background-color: #f5f5f5;
     border: none;
     border-radius:0;
-    transition: height 300ms ease-in;
+    transition: 300ms ease-in;
 }
 .work__container__more-none{
     height: 0;

@@ -1,3 +1,10 @@
+
+/*adaptive height work__container__blick*/
+var height = $('.work__container__block').height();
+var height2 = height*2;
+$('.work__container').css('max-height',height2);
+
+
 /*skills scroll*/
 $(window).scroll(function(){
     if ($(window).scrollTop() > 600) {
@@ -61,7 +68,8 @@ $(window).scroll(function () {
 
 $(document).ready(function () {
     $('#load_btn').click(function () {
-        $('.work__container').toggleClass('work__container-height');
+        /*$('.work__container').addClass('work__container-height');*/
+        $('.work__container').css('max-height','900px');
         $('.work__container__more').addClass('work__container__more-none');
     })
 })

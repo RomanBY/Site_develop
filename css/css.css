@@ -8,7 +8,7 @@ body{
     max-width: 1365px;
     padding: 0;
     margin: 0 auto;
-    font-family: Montserrat;
+    /*font-family: Montserrat;*/
 }
 .header{
     min-height: 670px;
@@ -33,16 +33,13 @@ body{
     background-size: 130%;
 }
 .statistics{
-    min-height: 240px;
+    min-height: 170px;
 }
 .statistics-bg{
     background: #10c9c3;
 }
 .work{
-    min-height: 600px;
-}
-.load{
-    min-height: 106px;
+    min-height: 200px;
 }
 .video{
     min-height: 930px;
