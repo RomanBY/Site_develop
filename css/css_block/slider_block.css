@@ -1,0 +1,23 @@
+.slider__carousel{
+    min-height: 500px;
+}
+.carousel__text-first{
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0.24px;
+}
+.carousel__text-second{
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 36px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+}
+.carousel__ind{
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 100px !important;
+}
