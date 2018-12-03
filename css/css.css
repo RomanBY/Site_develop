@@ -6,6 +6,10 @@
 @import "css_block/work_block.css";
 @import "css_block/categories_block.css";
 @import "css_block/slider_block.css";
+@import "css_block/logos_block.css";
+@import "css_block/feedback_block.css";
+@import "css_block/footer_block.css";
+@import "css_block/up-btn_block.css";
 
 body{
     max-width: 1365px;
@@ -59,7 +63,7 @@ body{
     min-height: 200px;
 }
 .feedback{
-    min-height: 750px;
+    min-height: 610px;
 }
 .footer{
     min-height: 280px;

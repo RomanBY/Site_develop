@@ -7,7 +7,7 @@ $('.work__container').css('max-height',height2);
 
 /*skills scroll*/
 $(window).scroll(function(){
-    if ($(window).scrollTop() > 600) {
+    if ($(window).scrollTop() > 550) {
         $('.line__progress-1').addClass('line__progress-w1');
         $('.line__progress-2').addClass('line__progress-w2');
         $('.line__progress-3').addClass('line__progress-w3');
@@ -35,7 +35,7 @@ $(window).scroll(function(){
 
 /*statistics numbers*/
 $(window).scroll(function () {
-    if ($(window).scrollTop() > 1000){
+    if ($(window).scrollTop() > 800){
         $('.static-info-1').animate({num:548 - 3}, {
             duration:3500,
             step: function (num) {
@@ -73,3 +73,46 @@ $(document).ready(function () {
         $('.work__container__more').addClass('work__container__more-none');
     })
 })
+
+/*
+button up*/
+$(document).ready(function(){
+    $('body').append('<a href="#" id="go-top" title="Вверх"></a>');
+});
+
+$(function() {
+    $.fn.scrollToTop = function() {
+        $(this).hide().removeAttr("href");
+        if ($(window).scrollTop() >= "250") $(this).fadeIn("slow")
+        var scrollDiv = $(this);
+        $(window).scroll(function() {
+            if ($(window).scrollTop() <= "250") $(scrollDiv).fadeOut("slow")
+            else $(scrollDiv).fadeIn("slow")
+        });
+        $(this).click(function() {
+            $("html, body").animate({scrollTop: 0}, "slow")
+        })
+    }
+});
+
+$(function() {
+    $("#go-top").scrollToTop();
+});
+
+/*jump to form*/
+$(document).ready(function(){
+    $("#clickBtn").on("click","a", function (event) {
+        //отменяем стандартную обработку нажатия по ссылке
+        event.preventDefault();
+
+        //забираем идентификатор бока с атрибута href
+        var id  = $(this).attr('href'),
+
+        //узнаем высоту от начала страницы до блока на который ссылается якорь
+        top = $(id).offset().top;
+
+        //анимируем переход на расстояние - top за 1500 мс
+        $('body,html').animate({scrollTop: top}, 1500);
+    });
+});
+

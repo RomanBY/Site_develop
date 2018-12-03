@@ -72,3 +72,6 @@
 .thumb {
     padding: 5px;
 }
+.compensate-for-scrollbar{
+    margin-right: auto!important;
+}
