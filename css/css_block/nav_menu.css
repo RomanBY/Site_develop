@@ -5,7 +5,61 @@
     text-transform: uppercase;
     transition: 200ms;
     letter-spacing: 1.2px;
+    font-weight: 500;
 }
 .nav__menu-text:hover{
     color: #10c9c3;
+}
+.menu-toggle {
+    display: block;
+    font-size: 0;
+    background: none;
+    border: none;
+    width: 30px;
+    height: 25px;
+    position: relative;
+}
+
+.menu-toggle,
+.menu-toggle:before,
+.menu-toggle:after {
+    border-top: 3px solid #000;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
+
+.menu-toggle:before,
+.menu-toggle:after {
+    position: absolute;
+    content: "";
+    display: block;
+    left: 0;
+    right: 0;
+}
+
+.menu-toggle:before {
+    top: 7px;
+}
+
+.menu-toggle:after {
+    top: 17px;
+}
+
+.menu-toggle.toggled-on {
+    border-top-color: transparent;
+}
+
+.menu-toggle.toggled-on:after {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    transform: rotate(45deg);
+    top: 12px;
+}
+
+.menu-toggle.toggled-on:before {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    top: 12px;
 }

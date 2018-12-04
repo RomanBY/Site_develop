@@ -1,7 +1,7 @@
 #go-top {
     position: fixed;
     bottom: 25px;
-    right: 200px;
+    right: 10px;
     cursor: pointer;
     display: none;
     width: 50px;

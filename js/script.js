@@ -1,9 +1,14 @@
+/*mobile icon*/
+$('.menu-toggle').on('click', function() {
+    $(this).toggleClass('toggled-on');
+});
 
 /*adaptive height work__container__blick*/
-var height = $('.work__container__block').height();
-var height2 = height*2;
-$('.work__container').css('max-height',height2);
-
+$(document).ready(function () {
+    var height = $('.work__container__block').height();
+    var height2 = height * 2;
+    $('.work__container').css('max-height', height2);
+});
 
 /*skills scroll*/
 $(window).scroll(function(){
