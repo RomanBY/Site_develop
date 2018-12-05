@@ -10,6 +10,7 @@
 @import "css_block/feedback_block.css";
 @import "css_block/footer_block.css";
 @import "css_block/up-btn_block.css";
+@import "css_block/media_screen_block.css";
 
 body{
     max-width: 1365px;
@@ -26,7 +27,7 @@ body{
 }
 
 .container{
-    border: 1px solid black;
+    /*border: 1px solid black;*/
 }
 .about{
     min-height: 420px;
@@ -49,7 +50,7 @@ body{
     min-height: 200px;
 }
 .video{
-    min-height: 690px;
+    min-height: 430px;
 }
 .categories{
     min-height: 536px;

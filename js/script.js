@@ -1,4 +1,4 @@
-/*mobile icon*/
+/*mobile menu animate*/
 $('.menu-toggle').on('click', function() {
     $(this).toggleClass('toggled-on');
 });
