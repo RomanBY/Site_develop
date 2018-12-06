@@ -25,3 +25,12 @@
     background-color: #10c9c3;
     border:none;
 }
+.about__header-img {
+    position: absolute;
+    width: 100%;
+    top: 95px;
+    left: 27px;
+    z-index: -1;
+    transform: scale(1.3);
+}
+

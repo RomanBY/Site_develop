@@ -25,11 +25,14 @@ body{
     background: url("../img/header/laptop_bg.jpg") no-repeat;
     background-size: 118%;
 }
-
+.header-menu{
+    min-height: 60px;
+}
 .container{
     /*border: 1px solid black;*/
 }
-.about{
+.about,
+.about-animate{
     min-height: 420px;
 }
 

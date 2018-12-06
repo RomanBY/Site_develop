@@ -17,7 +17,11 @@
 .static-info-1,
 .static-info-2,
 .static-info-3,
-.static-info-4{
+.static-info-4,
+.static-info-1-about,
+.static-info-2-about,
+.static-info-3-about,
+.static-info-4-about{
     color: #ffffff;
     font-family: Montserrat;
     font-size: 18px;

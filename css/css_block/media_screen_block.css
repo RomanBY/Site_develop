@@ -22,5 +22,8 @@
     .statistics__block_info{
         margin-left: 10px !important;
     }
+    .about__header-img{
+        width: 120%;
+    }
 
 }

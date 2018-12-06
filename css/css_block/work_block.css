@@ -20,7 +20,17 @@
     transform: rotateX(90deg);
     transition: transform 300ms ease-in-out ;
 }
-.work__container__block:hover .work__container__block-hover{
+.work__container__block-hover-work{
+    background-color: #10c9c3b3;
+    top: 0;
+    cursor: pointer;
+    transform: rotateX(90deg);
+    transition: transform 300ms ease-in-out ;
+}
+.work__container__block:hover .work__container__block-hover {
+    transform: rotateX(0deg);
+}
+.work__container__block:hover .work__container__block-hover-work{
     transform: rotateX(0deg);
 }
 .work__container__more{

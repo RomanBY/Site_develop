@@ -3,7 +3,7 @@ $('.menu-toggle').on('click', function() {
     $(this).toggleClass('toggled-on');
 });
 
-/*adaptive height work__container__blick*/
+/*adaptive height work__container__block*/
 $(document).ready(function () {
     var height = $('.work__container__block').height();
     var height2 = height * 2;
@@ -38,7 +38,7 @@ $(window).scroll(function(){
     }
 });
 
-/*statistics numbers*/
+/*statistics numbers for index*/
 $(window).scroll(function () {
     if ($(window).scrollTop() > 800){
         $('.static-info-1').animate({num:548 - 3}, {
@@ -60,6 +60,37 @@ $(window).scroll(function () {
             }
         });
         $('.static-info-4').animate({num:735 - 3}, {
+            duration:3500,
+            step: function (num) {
+                this.innerHTML= (num + 3).toFixed(0)
+            }
+        });
+    }
+
+});
+
+/*statistics numbers for about*/
+$(window).ready(function () {
+    if ($(window).scrollTop() >= 0){
+        $('.static-info-1-about').animate({num:548 - 3}, {
+            duration:3500,
+            step: function (num) {
+                this.innerHTML= (num + 3).toFixed(0)
+            }
+        });
+        $('.static-info-2-about').animate({num:1465 - 3}, {
+            duration:3500,
+            step: function (num) {
+                this.innerHTML= (num + 3).toFixed(0)
+            }
+        });
+        $('.static-info-3-about').animate({num:612 - 3}, {
+            duration:3500,
+            step: function (num) {
+                this.innerHTML= (num + 3).toFixed(0)
+            }
+        });
+        $('.static-info-4-about').animate({num:735 - 3}, {
             duration:3500,
             step: function (num) {
                 this.innerHTML= (num + 3).toFixed(0)
@@ -121,3 +152,16 @@ $(document).ready(function(){
     });
 });
 
+/*move bg*/
+
+$(document).ready(function() {
+
+    $( document ).on( 'mousemove', function( e ) {
+        var amountMovedX = 60 * ( (e.pageX + 1) / $( document ).width() ) - 60;
+        var amountMovedY = 60 * ( (e.pageY + 1) / $( window ).height() ) - 100;
+
+        $( '.about__header-img' ).css( 'left', - amountMovedX + 'px ');
+        $( '.about__header-img' ).css('top', - amountMovedY + 'px' );
+    } );
+
+});
