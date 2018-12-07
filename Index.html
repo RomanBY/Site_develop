@@ -39,7 +39,7 @@
                         <a class="nav-link nav__menu-text" href="#">TESTIMONIALS</a>
                     </li>
                     <li class="nav-item pl-2 pr-2">
-                        <a class="nav-link nav__menu-text" href="#">CONTACT</a>
+                        <a class="nav-link nav__menu-text" href="Contact.html">CONTACT</a>
                     </li>
                 </ul>
             </div>
@@ -247,12 +247,12 @@
     <div class="container">
         <div class="row flex-column align-self-center">
             <div class="col-md-6 col-10 m-auto justify-content-center text-center pt-5">
-                <h3 class="about__text-h">Our Work Process</h3>
+                <h3 id="animateVideo" class="about__text-h">Our Work Process</h3>
                 <p class="about__text-p pb-4">Was years it seasons was there form he in in them together over that,
                     third sixth gathered female creeping bearing behold years.</p>
             </div>
             <div class="col-10 m-auto justify-content-center">
-                <div class="embed-responsive embed-responsive-21by9 mb-5">
+                <div class="embed-responsive embed-responsive-21by9 mb-5 videoAnimate">
                     <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/gQRsgFw7tcg"
                             allowfullscreen></iframe>
                 </div>
@@ -398,19 +398,19 @@
                 and see if this could be the start of something beautiful.</p>
             </div>
                 <form class="col-xl-8 col-lg-10 col-md-12 m-auto justify-content-center text-center d-flex flex-wrap pb-5">
-                    <div class="col-xl-5 col-sm-5 col-10 form-group">
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                    <div class="col-xl-5 col-sm-5 col-10">
+                        <input type="email" class="form-control formEmail" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
                     </div>
                     <div class="col-xl-5 col-sm-5 col-10 form-group">
-                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                        <input type="password" class="form-control formPassword" id="exampleInputPassword1" placeholder="Password">
                     </div>
                     <div class="col-10 form-group">
-                        <input type="text" class="form-control" id="exampleInputTitle" placeholder="Your Title">
+                        <input type="text" class="form-control formTitle" id="exampleInputTitle" placeholder="Your Title">
                     </div>
                     <div class="col-10 form-group">
-                        <input type="text" class="form-control" id="exampleInputComment" placeholder="Your Comment">
+                        <input type="text" class="form-control formControl" id="exampleInputComment" placeholder="Your Comment">
                     </div>
-                    <button type="submit" class="btn btn-primary header__block__btn">SEND MESSAGE</button>
+                    <button type="submit" class="btn btn-primary header__block__btn formButton">SEND MESSAGE</button>
                 </form>
         </div>
     </div>
@@ -461,5 +461,6 @@
 <script src="js/bootstrap.bundle.js"></script>
 <script src="js/jquery.fancybox.js"></script>
 <script src="js/script.js"></script>
+<script src="js/Index/animate_script.js"></script>
 </body>
 </html>

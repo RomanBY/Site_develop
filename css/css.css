@@ -11,6 +11,7 @@
 @import "css_block/footer_block.css";
 @import "css_block/up-btn_block.css";
 @import "css_block/media_screen_block.css";
+@import "css_block/video_block.css";
 
 body{
     max-width: 1365px;
@@ -54,6 +55,7 @@ body{
 }
 .video{
     min-height: 430px;
+    overflow: hidden;
 }
 .categories{
     min-height: 536px;
@@ -68,8 +70,13 @@ body{
 }
 .feedback{
     min-height: 610px;
+    overflow: hidden;
 }
 .footer{
     min-height: 280px;
     background-color: #141414;
+}
+.contact__map{
+    width: 100%;
+    height: 400px;
 }

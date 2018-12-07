@@ -2,3 +2,28 @@
     min-height: 150px;
     padding-bottom: 122px;
 }
+.formEmail{
+    position: relative;
+    opacity: 1;
+    left: -555px;
+}
+.formPassword{
+    position: relative;
+    opacity: 1;
+    left: 555px;
+}
+.formTitle{
+    position: relative;
+    opacity: 1;
+    left: -860px;
+}
+.formControl{
+    position: relative;
+    opacity: 1;
+    left: 860px;
+}
+.formButton{
+    position: relative;
+    opacity: 1;
+    bottom:-110px;
+}
