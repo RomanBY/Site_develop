@@ -63,3 +63,6 @@
     transform: rotate(-45deg);
     top: 12px;
 }
+.nav__active{
+    border-bottom: 1px solid;
+}

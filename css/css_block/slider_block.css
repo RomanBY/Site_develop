@@ -21,3 +21,29 @@
     height: 10px !important;
     border-radius: 100px !important;
 }
+
+.carousel__ind-services{
+    width: 10px !important;
+    height: 10px !important;
+    background: #2e2e2e !important;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+.carousel__indicators-services{
+    bottom: -67px;
+    flex-wrap: wrap;
+    width: 35px;
+    margin: auto;
+}
+.carousel__indicators-services .active{
+    background: rgb(255, 234, 206) !important;
+    transition: 200ms;
+}
+.control__right,
+.control_left{
+    top: auto;
+    bottom: -100px;
+    height: 100px;
+}
+
+

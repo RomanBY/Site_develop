@@ -1,29 +1,53 @@
 @media screen and (max-width: 990px) {
     .header-bg,
-    .skills-bg{
+    .skills-bg {
         background-size: cover !important;
     }
-    .carousel__text-first{
+
+    .carousel__text-first {
         width: 75% !important;
     }
-    .statistics__block{
+
+    .statistics__block {
         min-height: 100px;
     }
-    .line{
+
+    .line {
         width: 100%;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .statistics__block img{
+    .statistics__block img {
         margin-left: 10px;
         margin-right: 10px;
     }
-    .statistics__block_info{
+
+    .statistics__block_info {
         margin-left: 10px !important;
     }
-    .about__header-img{
+
+    .about__header-img {
         width: 120%;
     }
 
+    .slider__carousel {
+        min-height: 300px;
+    }
+    .control__btn{
+        display: none;
+    }
+    .slider{
+        min-height: 250px !important;
+    }
+    .carousel__text-first{
+        font-size: 18px;
+    }
+    .carousel-indicators{
+        bottom: 0;
+    }
+    .nav-item{
+        text-align: center;
+        margin: auto;
+    }
 }
